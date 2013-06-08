@@ -37,7 +37,9 @@ public class StringCalculator {
                             }
                             i++;
                         }
-                        throw new IllegalArgumentException("negatives not allowed");
+                        if(negativeStr.length() == 2)
+                            throw new IllegalArgumentException("negatives not allowed");
+                        throw new IllegalArgumentException("negatives not allowed "+ negativeStr);
                     }
                     if(flag){
                         temp += Integer.parseInt(tmp);
