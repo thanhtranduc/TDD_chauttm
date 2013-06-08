@@ -1,5 +1,6 @@
 package StringCalculator;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertEquals;
@@ -16,5 +17,10 @@ public class TestStringCalculator {
     @Test
     public void returnZero() throws Exception {
         assertEquals(0, StringCalculator.add(""));
+    }
+
+    @Test
+    public void returnOneNumber(){
+        Assert.assertEquals(1, StringCalculator.add("1"));
     }
 }
