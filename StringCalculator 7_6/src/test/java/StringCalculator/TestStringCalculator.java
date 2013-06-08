@@ -32,4 +32,12 @@ public class TestStringCalculator {
     public void returnSumWithNewline(){
         Assert.assertEquals(6, StringCalculator.add("1\\n2,3"));
     }
+    @Test
+    public void returnNegativeNumber(){
+        try {
+            Assert.assertEquals(-1, StringCalculator.add("-1,2"));
+        }catch (Exception e){
+            Assert.assertEquals(e.getMessage(), "negatives not allowed");
+        }
+    }
 }
