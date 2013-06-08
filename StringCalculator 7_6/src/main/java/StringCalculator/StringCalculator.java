@@ -26,7 +26,9 @@ public class StringCalculator {
                         flag =true;
                     }
                     if( (i == (str.length()-1)) && isNumber(String.valueOf(str.charAt(i)))){
-                        temp +=Integer.parseInt(tmp);
+                        if(Integer.parseInt(tmp) <= 1000)
+                            temp +=Integer.parseInt(tmp);
+                        tmp="0";
                     }
                 }catch (Exception e){
                     if ((String.valueOf(str.charAt(i)).equals("-")) && isNumber(String.valueOf(str.charAt(i + 1)))){
@@ -41,7 +43,7 @@ public class StringCalculator {
                             throw new IllegalArgumentException("negatives not allowed");
                         throw new IllegalArgumentException("negatives not allowed "+ negativeStr);
                     }
-                    if(flag){
+                    if(flag && Integer.parseInt(tmp) <= 1000){
                         temp += Integer.parseInt(tmp);
                         flag =false;
                         tmp="0";
