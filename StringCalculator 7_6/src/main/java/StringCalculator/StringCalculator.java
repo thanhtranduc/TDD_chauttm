@@ -13,6 +13,8 @@ public class StringCalculator {
         boolean flag =false;
         String tmp = "0";
         int temp = 0;
+        String negativeStr ="";
+        boolean negative = false;
         if(str.isEmpty()){
             return 0;
         }else{
@@ -27,6 +29,16 @@ public class StringCalculator {
                         temp +=Integer.parseInt(tmp);
                     }
                 }catch (Exception e){
+                    if ((String.valueOf(str.charAt(i)).equals("-")) && isNumber(String.valueOf(str.charAt(i + 1)))){
+                        negative = true;
+                        while (i != str.length()){
+                            if(String.valueOf(str.charAt(i)).equals("-") && isNumber(String.valueOf(str.charAt(i + 1)))){
+                                negativeStr+="-"+String.valueOf(str.charAt(i+1));
+                            }
+                            i++;
+                        }
+                        throw new IllegalArgumentException("negatives not allowed");
+                    }
                     if(flag){
                         temp += Integer.parseInt(tmp);
                         flag =false;
