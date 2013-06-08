@@ -91,6 +91,17 @@ public class StringCalculator {
                                 tempStr1 +="\\"+String.valueOf((str.charAt(k)));
                                 k++;
                             }
+                            if (String.valueOf((str.charAt(++k))).equals("[")){
+                                two = true;
+                                if (String.valueOf(str.charAt(k)).equals("[")){
+                                    k++;
+                                }
+                                while (!String.valueOf(str.charAt(k)).equals("]")){
+                                    tempStr2 +="\\"+String.valueOf((str.charAt(k)));
+                                    k++;
+                                }
+                            }
+                            j = k-1;
                         }
                         j++;
                     }

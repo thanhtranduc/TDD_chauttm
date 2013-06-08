@@ -73,7 +73,7 @@
       <file leaf-file-name="StringCalculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="29" selection-start="3870" selection-end="3870" vertical-scroll-proportion="0.0">
+            <state line="124" column="5" selection-start="5138" selection-end="5138" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,8 +102,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalcalator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java" />
       </list>
     </option>
   </component>
@@ -562,7 +562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="29" selection-start="3870" selection-end="3870" vertical-scroll-proportion="0.0">
+        <state line="124" column="5" selection-start="5138" selection-end="5138" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
