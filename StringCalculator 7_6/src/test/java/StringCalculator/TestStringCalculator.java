@@ -40,4 +40,12 @@ public class TestStringCalculator {
             Assert.assertEquals(e.getMessage(), "negatives not allowed");
         }
     }
+    @Test
+    public void returnMultipleNegativeNumber()throws Exception{
+        try {
+            Assert.assertEquals(-1, StringCalculator.add("1,-1,-2,5,-3"));
+        }catch (Exception e){
+            Assert.assertEquals(e.getMessage(), "negatives not allowed -1-2-3");
+        }
+    }
 }
