@@ -10,10 +10,31 @@ package StringCalculator;
 public class StringCalculator {
 
     public static int add(String str) {
+        boolean flag =false;
+        String tmp = "0";
+        int temp = 0;
         if(str.isEmpty()){
             return 0;
         }else{
-            return Integer.parseInt(str);
+            for (int i = 0; i < str.length(); i++) {
+                try{
+
+                    if(Integer.parseInt(String.valueOf(str.charAt(i)))%1 == 0){
+                        tmp+=str.charAt(i);
+                        flag =true;
+                    }
+                    if( (i == (str.length()-1)) && Integer.parseInt(String.valueOf(str.charAt(i))) % 1 ==0){
+                        temp +=Integer.parseInt(tmp);
+                    }
+                }catch (Exception e){
+                    if(flag){
+                        temp += Integer.parseInt(tmp);
+                        flag =false;
+                        tmp="0";
+                    }
+                }
+            }
+            return temp;
         }
     }
 }

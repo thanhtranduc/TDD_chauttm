@@ -5,7 +5,7 @@
     <ignored path="StringCalculator 7_6.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/TestStringCalcalator.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666171868" ignored="false" />
-    <file path="/StringCalculator.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370667092439" ignored="false" />
+    <file path="/StringCalculator.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370668039201" ignored="false" />
     <file path="/Dummy.txt" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666819827" ignored="false" />
     <file path="/TestStringCalculator.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666886603" ignored="false" />
     <file path="/fragment.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666819827" ignored="false" />
@@ -72,7 +72,7 @@
       <file leaf-file-name="StringCalculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="9" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+            <state line="32" column="32" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,7 +81,7 @@
       <file leaf-file-name="TestStringCalculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="30" selection-start="574" selection-end="588" vertical-scroll-proportion="0.76902175">
+            <state line="27" column="23" selection-start="581" selection-end="581" vertical-scroll-proportion="0.76902175">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +101,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalcalator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java" />
       </list>
     </option>
   </component>
@@ -266,7 +266,29 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.All in StringCalculator 7_6">
+  <component name="RunManager" selected="JUnit.TestStringCalculator.returnSumBasic">
+    <configuration default="false" name="TestStringCalculator.returnSumBasic" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="StringCalculator 7_6" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="StringCalculator" />
+      <option name="MAIN_CLASS_NAME" value="StringCalculator.TestStringCalculator" />
+      <option name="METHOD_NAME" value="returnSumBasic" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -399,9 +421,15 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in StringCalculator 7_6" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestStringCalculator.returnSumBasic" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestStringCalculator.returnSumBasic" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -533,14 +561,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+        <state line="32" column="32" selection-start="1031" selection-end="1031" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="30" selection-start="574" selection-end="588" vertical-scroll-proportion="0.76902175">
+        <state line="27" column="23" selection-start="581" selection-end="581" vertical-scroll-proportion="0.76902175">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -25,7 +25,7 @@ public class TestStringCalculator {
     }
 
     @Test
-    public void returnSumBasic()throws Exception{
+    public void returnSumBasic(){
         Assert.assertEquals(3, StringCalculator.add("1,2"));
     }
 }
