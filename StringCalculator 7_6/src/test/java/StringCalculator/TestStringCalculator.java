@@ -48,4 +48,9 @@ public class TestStringCalculator {
             Assert.assertEquals(e.getMessage(), "negatives not allowed -1-2-3");
         }
     }
+
+    @Test
+    public void returnNotBigger1000() throws Exception{
+        Assert.assertEquals(1, StringCalculator.add("1,1001"));
+    }
 }
