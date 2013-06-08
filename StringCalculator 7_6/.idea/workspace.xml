@@ -7,8 +7,9 @@
     <file path="/TestStringCalcalator.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666171868" ignored="false" />
     <file path="/StringCalculator.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370670050605" ignored="false" />
     <file path="/Dummy.txt" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666819827" ignored="false" />
-    <file path="/TestStringCalculator.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666886603" ignored="false" />
+    <file path="/TestStringCalculator.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370670422111" ignored="false" />
     <file path="/fragment.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666819827" ignored="false" />
+    <file path="C:/xampp/htdocs/thuctap/TDD_chauttm/StringCalculator_ 6_6/src/test/java/StringCalculator/TestStringCalculator.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370670457534" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,19 +70,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StringCalculator.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StringCalculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="60" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.4918478">
+            <state line="45" column="60" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestStringCalculator.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TestStringCalculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="35" selection-start="1330" selection-end="1349" vertical-scroll-proportion="0.0">
+            <state line="57" column="38" selection-start="1467" selection-end="1489" vertical-scroll-proportion="0.8152174">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +102,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalcalator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java" />
       </list>
     </option>
   </component>
@@ -479,7 +480,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -559,19 +560,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="35" selection-start="1330" selection-end="1349" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="45" column="60" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="60" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.4918478">
-          <folding />
+        <state line="57" column="38" selection-start="1467" selection-end="1489" vertical-scroll-proportion="0.8152174">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -53,4 +53,9 @@ public class TestStringCalculator {
     public void returnNotBigger1000() throws Exception{
         Assert.assertEquals(1, StringCalculator.add("1,1001"));
     }
+
+    @Test
+    public void returnSumWithDelimiter() throws Exception{
+        Assert.assertEquals(6, StringCalculator.add("//[***]\\n1***2***3"));
+    }
 }
