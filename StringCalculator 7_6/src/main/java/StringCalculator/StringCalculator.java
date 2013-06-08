@@ -19,11 +19,11 @@ public class StringCalculator {
             for (int i = 0; i < str.length(); i++) {
                 try{
 
-                    if(Integer.parseInt(String.valueOf(str.charAt(i)))%1 == 0){
+                    if(isNumber(String.valueOf(str.charAt(i)))){
                         tmp+=str.charAt(i);
                         flag =true;
                     }
-                    if( (i == (str.length()-1)) && Integer.parseInt(String.valueOf(str.charAt(i))) % 1 ==0){
+                    if( (i == (str.length()-1)) && isNumber(String.valueOf(str.charAt(i)))){
                         temp +=Integer.parseInt(tmp);
                     }
                 }catch (Exception e){
@@ -36,5 +36,10 @@ public class StringCalculator {
             }
             return temp;
         }
+    }
+    static boolean isNumber(String str){
+        if (Integer.parseInt(str) % 1 == 0)
+            return true;
+        return false;
     }
 }

@@ -15,7 +15,7 @@ import static junit.framework.Assert.assertEquals;
 public class TestStringCalculator {
 
     @Test
-    public void returnZero() throws Exception {
+    public void returnZero(){
         assertEquals(0, StringCalculator.add(""));
     }
 
