@@ -5,9 +5,10 @@
     <ignored path="StringCalculator 7_6.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/TestStringCalcalator.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666171868" ignored="false" />
-    <file path="/StringCalculator.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666453103" ignored="false" />
-    <file path="/Dummy.txt" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666482364" ignored="false" />
+    <file path="/StringCalculator.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666776569" ignored="false" />
+    <file path="/Dummy.txt" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666819827" ignored="false" />
     <file path="/TestStringCalculator.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666691997" ignored="false" />
+    <file path="/fragment.java" changelist="a07e3d1e-f6aa-4ff9-ad2d-ef4043e6fca3" time="1370666819827" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <file leaf-file-name="StringCalculator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+            <state line="15" column="16" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,7 +81,7 @@
       <file leaf-file-name="TestStringCalculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="21" selection-start="327" selection-end="327" vertical-scroll-proportion="0.4848485">
+            <state line="17" column="43" selection-start="397" selection-end="397" vertical-scroll-proportion="0.78532606">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,8 +101,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalcalator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java" />
       </list>
     </option>
   </component>
@@ -252,18 +253,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in StringCalculator 7_6">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -374,7 +377,31 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="All in StringCalculator 7_6" type="JUnit" factoryName="JUnit">
+      <module name="StringCalculator 7_6" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in StringCalculator 7_6" />
+    </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -418,12 +445,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -491,6 +519,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -501,14 +533,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+        <state line="15" column="16" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="327" selection-end="327" vertical-scroll-proportion="0.4848485">
+        <state line="17" column="43" selection-start="397" selection-end="397" vertical-scroll-proportion="0.78532606">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
