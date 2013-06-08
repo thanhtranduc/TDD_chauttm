@@ -81,7 +81,7 @@
       <file leaf-file-name="TestStringCalculator.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="5" selection-start="640" selection-end="640" vertical-scroll-proportion="0.86141306">
+            <state line="31" column="38" selection-start="689" selection-end="689" vertical-scroll-proportion="0.67663044">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +101,8 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalcalator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/StringCalculator/StringCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java" />
       </list>
     </option>
   </component>
@@ -266,7 +266,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.TestStringCalculator.returnSumBasic">
+  <component name="RunManager" selected="JUnit.All in StringCalculator 7_6">
     <configuration default="false" name="TestStringCalculator.returnSumBasic" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="StringCalculator 7_6" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -568,7 +568,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculator/TestStringCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="640" selection-end="640" vertical-scroll-proportion="0.86141306">
+        <state line="31" column="38" selection-start="689" selection-end="689" vertical-scroll-proportion="0.67663044">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
