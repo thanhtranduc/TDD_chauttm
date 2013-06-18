@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: thanhtd
@@ -38,4 +40,7 @@ public class BankAccount {
     }
 
 
+    public static List<TransactionDTO> getTransactionOccurred(String accountNumber,Long startTime,long stopTime) {
+        return Transaction.getTransactions(accountNumber,startTime,stopTime);
+    }
 }

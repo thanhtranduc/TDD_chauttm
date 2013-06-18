@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: thanhtd
@@ -10,4 +12,7 @@ public class TransactionDao {
         //To change body of created methods use File | Settings | File Templates.
     }
 
+    public List<TransactionDTO> get(String accountNumber, long startTime, long stopTime) {
+        return  null;
+    }
 }

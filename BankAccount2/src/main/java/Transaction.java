@@ -1,4 +1,5 @@
 import java.util.Calendar;
+import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,6 +16,9 @@ public class Transaction {
         Transaction.transactionDao = transactionDao;
     }
 
+    public static List<TransactionDTO> getTransactions(String accountNumber,long startTime,long stopTime) {
+        return transactionDao.get(accountNumber,startTime,stopTime);
+    }
     public static void setCalendar(Calendar calendar) {
         Transaction.calendar = calendar;
     }
