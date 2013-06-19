@@ -15,4 +15,8 @@ public class TransactionDao {
     public List<TransactionDTO> get(String accountNumber, long startTime, long stopTime) {
         return  null;
     }
+    public List<TransactionDTO> get(String accountNumber, int n) {
+        //To change body of created methods use File | Settings | File Templates.
+        return null;
+    }
 }

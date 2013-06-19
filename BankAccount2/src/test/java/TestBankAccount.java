@@ -20,6 +20,14 @@ public class TestBankAccount {
     BankAccountDao mockAccountDao = mock(BankAccountDao.class);
     TransactionDao transactionDao = mock(TransactionDao.class);
     Calendar calendar = mock(Calendar.class);
+
+    public void initTransaction(){
+        BankAccountDTO newAcc = BankAccount.openAccount("1234567890");
+        when(mockAccountDao.get("1234567890")).thenReturn(newAcc);
+        when(calendar.getTimeInMillis()).thenReturn(0L).thenReturn(1000L);
+        BankAccount.deposit("1234567890",100L,"first deposit");
+        BankAccount.withDraw("1234567890",50L,"first withdraw");
+    }
     @Before
     public void setUp(){
         reset(mockAccountDao);
@@ -68,12 +76,7 @@ public class TestBankAccount {
     @Test
     public void testGetTransactionOccurred(){
         ArgumentCaptor<TransactionDTO> argumentCaptor = ArgumentCaptor.forClass(TransactionDTO.class);
-        BankAccountDTO newAcc = BankAccount.openAccount("1234567890");
-        when(mockAccountDao.get("1234567890")).thenReturn(newAcc);
-        when(calendar.getTimeInMillis()).thenReturn(0L).thenReturn(1000L);
-        BankAccount.deposit("1234567890",100L,"first deposit");
-        BankAccount.withDraw("1234567890",50L,"first withdraw");
-
+        initTransaction();
         verify(transactionDao,times(2)).save(argumentCaptor.capture());
         List<TransactionDTO> saveDB = argumentCaptor.getAllValues();
         when(transactionDao.get("1234567890",0L,100L)).thenReturn(saveDB);
@@ -85,15 +88,21 @@ public class TestBankAccount {
     public void testGetTransactionInAPeriod(){
 
         ArgumentCaptor<TransactionDTO> transactionRecordDB = ArgumentCaptor.forClass(TransactionDTO.class);
-        BankAccountDTO newAcc = BankAccount.openAccount("1234567890");
-        when(mockAccountDao.get("1234567890")).thenReturn(newAcc);
-        when(calendar.getTimeInMillis()).thenReturn(0L).thenReturn(1000L);
-        BankAccount.deposit("1234567890",100L,"first deposit");
-        BankAccount.withDraw("1234567890",50L,"first withdraw");
+        initTransaction();
         verify(transactionDao,times(2)).save(transactionRecordDB.capture());
         List<TransactionDTO> savedRecords = transactionRecordDB.getAllValues();
         when(transactionDao.get("1234567890",0L,100L)).thenReturn(savedRecords);
         List<TransactionDTO> actualRecords = BankAccount.getTransactionOccurred("1234567890",0L,100L);
+        assertEquals(savedRecords,actualRecords);
+    }
+    @Test
+    public void testGetNTransactions(){
+        ArgumentCaptor<TransactionDTO> argumentCaptor = ArgumentCaptor.forClass(TransactionDTO.class);
+        initTransaction();
+        verify(transactionDao,times(2)).save(argumentCaptor.capture());
+        List<TransactionDTO> savedRecords = argumentCaptor.getAllValues();
+        when(transactionDao.get("1234567890",2)).thenReturn(savedRecords);
+        List<TransactionDTO> actualRecords = BankAccount.getTransactionOccurred("1234567890",2);
         assertEquals(savedRecords,actualRecords);
     }
 
