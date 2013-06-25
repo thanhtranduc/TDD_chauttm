@@ -19,4 +19,17 @@ public class BankAccount {
         BankAccount.bankAccountDao = mockAccountDao;
         //To change body of created methods use File | Settings | File Templates.
     }
+
+    public static void deposit(String accountNumber, long amount, String description) {
+        doTransaction(accountNumber,amount, description);
+        //To change body of created methods use File | Settings | File Templates.
+    }
+
+    private static void doTransaction(String accountNumber, long amount, String description) {
+        BankAccountDTO b = bankAccountDao.get(accountNumber);
+        b.setBalance(b.getBalance() + amount);
+        bankAccountDao.save(b);
+        Transaction.save(accountNumber,amount,description);
+        //To change body of created methods use File | Settings | File Templates.
+    }
 }

@@ -35,4 +35,9 @@ public class BankAccountDTO {
     public long getOpenTimeStamp() {
         return openTimeStamp;  //To change body of created methods use File | Settings | File Templates.
     }
+
+    public void setBalance(long balance) {
+        this.balance = balance;
+        //To change body of created methods use File | Settings | File Templates.
+    }
 }
