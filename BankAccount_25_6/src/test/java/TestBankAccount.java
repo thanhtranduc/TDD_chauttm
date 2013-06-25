@@ -18,6 +18,7 @@ import static org.mockito.Mockito.*;
  */
 public class TestBankAccount {
     BankAccountDao mockAccountDao = mock(BankAccountDao.class);
+    TransactionDao transactionDao = mock(TransactionDao.class);
     Calendar mockCalendar = mock(Calendar.class);
     private String accountNumber = "1234567890";
 
@@ -25,6 +26,8 @@ public class TestBankAccount {
     public void setUp(){
         reset(mockAccountDao);
         BankAccount.setBankAccountDao(mockAccountDao);
+        Transaction.setTransactionDao(transactionDao);
+        Transaction.setCalendar(mockCalendar);
     }
 
     @Test
@@ -62,5 +65,10 @@ public class TestBankAccount {
         verify(mockAccountDao,times(3)).save(argumentAccount.capture());
         List<BankAccountDTO> savedAccountDB = argumentAccount.getAllValues();
         Assert.assertEquals(savedAccountDB.get(1).getBalance(), 50, 0.01);
+    }
+
+    @Test
+    public void testGetTransactionOccurred(){
+        List<TransactionDTO> list = BankAccount.getTransactionOccurred(accountNumber);
     }
 }

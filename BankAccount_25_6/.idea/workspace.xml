@@ -5,13 +5,16 @@
     <ignored path="BankAccount_25_6.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/TestBankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372143889447" ignored="false" />
-    <file path="/fragment.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372143789594" ignored="false" />
-    <file path="/BankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372143963867" ignored="false" />
+    <file path="/fragment.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372144122828" ignored="false" />
+    <file path="/BankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372144082215" ignored="false" />
     <file path="/BankAccountDTO.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372143756350" ignored="false" />
     <file path="/BankAccountDao.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372143548514" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount4/src/test/java/TestBankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372143379495" ignored="false" />
     <file path="/Dummy.txt" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372143789594" ignored="false" />
-    <file path="/Transaction.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372143800464" ignored="false" />
+    <file path="/Transaction.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372144786961" ignored="false" />
+    <file path="/TransactionDao.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372144251278" ignored="false" />
+    <file path="/TransactionDTO.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372144263232" ignored="false" />
+    <file path="$PROJECT_DIR$/../BankAccount4/src/main/java/Transaction.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372144466918" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +87,7 @@
       <file leaf-file-name="TestBankAccount.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestBankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="19" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.92391306">
+            <state line="20" column="63" selection-start="563" selection-end="563" vertical-scroll-proportion="0.3314121">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,10 +95,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TransactionDTO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TransactionDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="5" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BankAccountDao.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BankAccountDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="21" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
+            <state line="8" column="16" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,7 +116,7 @@
       <file leaf-file-name="BankAccount.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="5" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0">
+            <state line="33" column="22" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -113,7 +125,27 @@
       <file leaf-file-name="Transaction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="276" selection-end="349" vertical-scroll-proportion="0.0">
+            <state line="27" column="43" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BankAccount_25_6.iml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankAccount_25_6.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TransactionDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="16" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,9 +173,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/BankAccountDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/BankAccountDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BankAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TransactionDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TransactionDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/Transaction.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestBankAccount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BankAccount.java" />
       </list>
     </option>
   </component>
@@ -311,6 +345,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="TestBankAccount.testDepositBalanceAccount" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="BankAccount_25_6" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBankAccount" />
+      <option name="METHOD_NAME" value="testDepositBalanceAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -399,12 +455,14 @@
       <patterns />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.All in BankAccount_25_6" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestBankAccount.testDepositBalanceAccount" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="JUnit.All in BankAccount_25_6" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestBankAccount.testDepositBalanceAccount" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -520,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BankAccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BankAccountDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="31" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
@@ -534,23 +585,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TransactionDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="276" selection-end="349" vertical-scroll-proportion="0.0">
+        <state line="17" column="5" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TransactionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="16" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BankAccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="5" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0">
+        <state line="33" column="22" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="43" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccount_25_6.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestBankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="19" selection-start="2230" selection-end="2230" vertical-scroll-proportion="0.92391306">
+        <state line="20" column="63" selection-start="563" selection-end="563" vertical-scroll-proportion="0.3314121">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

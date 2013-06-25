@@ -14,7 +14,6 @@ public class Transaction {
 
     public static void setTransactionDao(TransactionDao transactionDao) {
         Transaction.transactionDao = transactionDao;
-
     }
     public static void save(String accountNumber, long amount, String description) {
         Long timeStamp = calendar.getTimeInMillis();
