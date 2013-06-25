@@ -20,6 +20,7 @@ public class BankAccountDTO {
     }
 
     public static void setCalendar(Calendar mockCalendar) {
+        calendar = mockCalendar;
         //To change body of created methods use File | Settings | File Templates.
     }
 
@@ -27,7 +28,7 @@ public class BankAccountDTO {
         return accountNumber;  //To change body of created methods use File | Settings | File Templates.
     }
 
-    public long getBanlance() {
+    public long getBalance() {
         return balance;  //To change body of created methods use File | Settings | File Templates.
     }
 

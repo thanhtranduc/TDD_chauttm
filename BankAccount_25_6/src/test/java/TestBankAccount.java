@@ -30,11 +30,12 @@ public class TestBankAccount {
         ArgumentCaptor<BankAccountDTO> argumentCaptor = ArgumentCaptor.forClass(BankAccountDTO.class);
         BankAccountDTO.setCalendar(mockCalendar);
         when(mockCalendar.getTimeInMillis()).thenReturn(1000L);
+
         BankAccountDTO newAcc = BankAccount.openAccount(accountNumber);
         verify(mockAccountDao).save(argumentCaptor.capture());
 
         assertEquals(accountNumber, argumentCaptor.getValue().getAccountNumber());
-        assertEquals(argumentCaptor.getValue().getBanlance(),0,0.01);
+        assertEquals(argumentCaptor.getValue().getBalance(),0,0.01);
         assertEquals(argumentCaptor.getValue().getOpenTimeStamp(),1000L);
 
     }

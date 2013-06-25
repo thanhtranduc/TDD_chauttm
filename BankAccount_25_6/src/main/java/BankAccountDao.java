@@ -9,8 +9,4 @@ public class BankAccountDao {
     public void save(BankAccountDTO capture) {
         //To change body of created methods use File | Settings | File Templates.
     }
-
-    public void save(String accountNumber) {
-        //To change body of created methods use File | Settings | File Templates.
-    }
 }
