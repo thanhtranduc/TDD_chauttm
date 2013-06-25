@@ -7,23 +7,23 @@
     <file path="/TestBankAccount.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372143889447" ignored="false" />
     <file path="/fragment.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372144122828" ignored="false" />
     <file path="/BankAccoutnDao.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372056229478" ignored="false" />
-    <file path="/BankAccount.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372145041326" ignored="false" />
+    <file path="/BankAccount.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372145220478" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount3/src/test/java/TestBankAccount.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372056480544" ignored="false" />
     <file path="/BankAccountDTO.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372143756350" ignored="false" />
     <file path="/BankAccountDao.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372143548514" ignored="false" />
-    <file path="/Transaction.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372145080777" ignored="false" />
-    <file path="/TransactionDao.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372145086030" ignored="false" />
+    <file path="/Transaction.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372145240244" ignored="false" />
+    <file path="/TransactionDao.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372145245558" ignored="false" />
     <file path="/TransactionDTO.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372144263232" ignored="false" />
     <file path="/Dummy.txt" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372143789594" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount_25_6/src/test/java/Test.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372141744409" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount_25_6/src/test/java/TestBankAccount.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372145174611" ignored="false" />
-    <file path="$PROJECT_DIR$/../BankAccount_25_6/src/main/java/BankAccount.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372145042098" ignored="false" />
+    <file path="$PROJECT_DIR$/../BankAccount_25_6/src/main/java/BankAccount.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372145220478" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount_25_6/src/main/java/BankAccountDao.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372143549345" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount_25_6/pom.xml" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372142458417" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount_25_6/src/main/java/BankAccountDTO.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372143757614" ignored="false" />
-    <file path="$PROJECT_DIR$/../BankAccount_25_6/src/main/java/Transaction.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372145081312" ignored="false" />
+    <file path="$PROJECT_DIR$/../BankAccount_25_6/src/main/java/Transaction.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372145240244" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount_25_6/src/main/java/TransactionDTO.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372144280889" ignored="false" />
-    <file path="$PROJECT_DIR$/../BankAccount_25_6/src/main/java/TransactionDao.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372145090954" ignored="false" />
+    <file path="$PROJECT_DIR$/../BankAccount_25_6/src/main/java/TransactionDao.java" changelist="3ec511b2-09e6-43e2-a389-418461c4560c" time="1372145247802" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

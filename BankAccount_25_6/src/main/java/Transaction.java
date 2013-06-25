@@ -34,4 +34,8 @@ public class Transaction {
     public static List<TransactionDTO> getTransactionOccurred(String accountNumber, long starTime, long endTime) {
         return transactionDao.getTransactionOccurred(accountNumber,starTime,endTime);  //To change body of created methods use File | Settings | File Templates.
     }
+
+    public static List<TransactionDTO> getTransactionOccurred(String accountNumber, int n) {
+        return transactionDao.getTransactionOccurred(accountNumber,n);  //To change body of created methods use File | Settings | File Templates.
+    }
 }
