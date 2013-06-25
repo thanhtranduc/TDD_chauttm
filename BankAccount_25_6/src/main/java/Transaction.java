@@ -30,4 +30,8 @@ public class Transaction {
     public static void setTransactionDao(TransactionDao transactionDao) {
         Transaction.transactionDao = transactionDao;
     }
+
+    public static List<TransactionDTO> getTransactionOccurred(String accountNumber, long starTime, long endTime) {
+        return transactionDao.getTransactionOccurred(accountNumber,starTime,endTime);  //To change body of created methods use File | Settings | File Templates.
+    }
 }
