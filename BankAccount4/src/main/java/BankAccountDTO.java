@@ -8,19 +8,32 @@ import java.util.Calendar;
  * To change this template use File | Settings | File Templates.
  */
 public class BankAccountDTO {
-    public static void setCalendar(Calendar mockCalendar) {
-        //To change body of created methods use File | Settings | File Templates.
+
+    private String accountNumber;
+    private long balance = 0;
+    static Calendar calendar = Calendar.getInstance();
+    long openTimeStamp;
+    public BankAccountDTO(String accountNumber){
+        this.accountNumber = accountNumber;
+        balance = 0;
+        openTimeStamp = calendar.getTimeInMillis();
+    }
+    public static void setCalendar(Calendar calendars) {
+        calendar = calendars;
     }
 
+    public void setBalance(long balance){
+        this.balance = balance;
+    }
     public String getAccountNumber() {
-        return null;  //To change body of created methods use File | Settings | File Templates.
+        return accountNumber;
     }
 
-    public long getBanlance() {
-        return 0;  //To change body of created methods use File | Settings | File Templates.
+    public long getBalance() {
+        return balance;  //To change body of created methods use File | Settings | File Templates.
     }
 
     public long getOpenTimeStamp() {
-        return 0;  //To change body of created methods use File | Settings | File Templates.
+        return openTimeStamp;    //To change body of created methods use File | Settings | File Templates.
     }
 }

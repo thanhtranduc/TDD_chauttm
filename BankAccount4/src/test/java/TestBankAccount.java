@@ -35,7 +35,7 @@ public class TestBankAccount {
         verify(mockAccountDao).save(argumentCaptor.capture());
 
         assertEquals(accountNumber, argumentCaptor.getValue().getAccountNumber());
-        assertEquals(argumentCaptor.getValue().getBanlance(),0,0.01);
+        assertEquals(argumentCaptor.getValue().getBalance(),0,0.01);
         assertEquals(argumentCaptor.getValue().getOpenTimeStamp(),1000L);
 
 
