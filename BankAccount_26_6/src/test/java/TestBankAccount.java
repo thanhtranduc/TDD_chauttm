@@ -66,4 +66,8 @@ public class TestBankAccount {
         List<BankAccountDTO> savedAccountDB = argumentAccount.getAllValues();
         Assert.assertEquals(savedAccountDB.get(1).getBalance(), 50, 0.01);
     }
+    @Test
+    public void testGetTransactionOccurred(){
+        List<TransactionDTO> list = BankAccount.getTransactionOccurred(accountNumber);
+    }
 }
