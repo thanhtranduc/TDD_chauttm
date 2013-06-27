@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * Created with IntelliJ IDEA.
  * User: thanhtd
@@ -8,5 +10,9 @@
 public class TransactionDao {
     public void save(TransactionDTO transactionDTO) {
         //To change body of created methods use File | Settings | File Templates.
+    }
+
+    public List<TransactionDTO> getTransactionOccurred(String accountNumber) {
+        return null;  //To change body of created methods use File | Settings | File Templates.
     }
 }

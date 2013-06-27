@@ -38,4 +38,8 @@ public class BankAccount {
         doTransaction(accountNumber,-amount, description);
         //To change body of created methods use File | Settings | File Templates.
     }
+
+    public static List<TransactionDTO> getTransactionOccurred(String accountNumber) {
+        return Transaction.getTransactionOccurred(accountNumber);  //To change body of created methods use File | Settings | File Templates.
+    }
 }
