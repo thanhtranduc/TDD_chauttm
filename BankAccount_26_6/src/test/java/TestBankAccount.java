@@ -60,7 +60,7 @@ public class TestBankAccount {
         BankAccountDTO accountDTO = BankAccount.openAccount("1234567890");
         when(mockAccountDao.get("1234567890")).thenReturn(accountDTO);
         BankAccount.deposit("1234567890",100,"deposit");
-        BankAccount.withDraw("1234567890",50,"deposit");
+        BankAccount.withDraw("1234567890",50,"withdraw");
         ArgumentCaptor<BankAccountDTO> argumentAccount = ArgumentCaptor.forClass(BankAccountDTO.class);
         verify(mockAccountDao,times(3)).save(argumentAccount.capture());
         List<BankAccountDTO> savedAccountDB = argumentAccount.getAllValues();
