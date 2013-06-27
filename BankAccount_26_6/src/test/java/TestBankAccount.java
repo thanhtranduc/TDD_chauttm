@@ -70,4 +70,11 @@ public class TestBankAccount {
     public void testGetTransactionOccurred(){
         List<TransactionDTO> list = BankAccount.getTransactionOccurred(accountNumber);
     }
+
+    @Test
+    public void testGetTransactionsOccurredDifferenceTime(){
+        long starTime = 100;
+        long endTime = 1000;
+        List<TransactionDTO> list = BankAccount.getTransactionOccurred(accountNumber,starTime,endTime);
+    }
 }
