@@ -1,3 +1,4 @@
+import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
@@ -52,5 +53,17 @@ public class TestBankAccount {
         verify(mockAccountDao,times(2)).save(argumentCaptor.capture());
         List<BankAccountDTO> saveRecord = argumentCaptor.getAllValues();
         assertEquals(saveRecord.get(1).getBalance(),100,0.01);
+    }
+
+    @Test
+    public void testWithdrawBalanceAccount(){
+        BankAccountDTO accountDTO = BankAccount.openAccount("1234567890");
+        when(mockAccountDao.get("1234567890")).thenReturn(accountDTO);
+        BankAccount.deposit("1234567890",100,"deposit");
+        BankAccount.withDraw("1234567890",50,"deposit");
+        ArgumentCaptor<BankAccountDTO> argumentAccount = ArgumentCaptor.forClass(BankAccountDTO.class);
+        verify(mockAccountDao,times(3)).save(argumentAccount.capture());
+        List<BankAccountDTO> savedAccountDB = argumentAccount.getAllValues();
+        Assert.assertEquals(savedAccountDB.get(1).getBalance(), 50, 0.01);
     }
 }
