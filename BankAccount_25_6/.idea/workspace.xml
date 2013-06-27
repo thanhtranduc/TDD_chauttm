@@ -5,10 +5,10 @@
     <ignored path="BankAccount_25_6.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/TestBankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372229297991" ignored="false" />
-    <file path="/fragment.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372229150545" ignored="false" />
-    <file path="/BankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372229168668" ignored="false" />
-    <file path="/BankAccountDTO.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372143756350" ignored="false" />
-    <file path="/BankAccountDao.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372143548514" ignored="false" />
+    <file path="/fragment.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372294194339" ignored="false" />
+    <file path="/BankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372294216768" ignored="false" />
+    <file path="/BankAccountDTO.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372294339626" ignored="false" />
+    <file path="/BankAccountDao.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372294229931" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount4/src/test/java/TestBankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372145177579" ignored="false" />
     <file path="/Dummy.txt" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372228795802" ignored="false" />
     <file path="/Transaction.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372145240244" ignored="false" />
@@ -22,6 +22,9 @@
     <file path="$PROJECT_DIR$/../BankAccount 26_6/src/main/java/BankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372229169893" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount_26_6/pom.xml" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372293987474" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount_26_6/src/test/java/TestBankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372294071389" ignored="false" />
+    <file path="$PROJECT_DIR$/../BankAccount_26_6/src/main/java/BankAccountDao.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372294232504" ignored="false" />
+    <file path="$PROJECT_DIR$/../BankAccount_26_6/src/main/java/BankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372294442521" ignored="false" />
+    <file path="$PROJECT_DIR$/../BankAccount_26_6/src/main/java/BankAccountDTO.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372294371846" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +97,7 @@
       <file leaf-file-name="BankAccountDTO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BankAccountDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="31" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
+            <state line="41" column="6" selection-start="1237" selection-end="1395" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,10 +130,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BankAccount.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BankAccount.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="42" selection-start="2192" selection-end="2192" vertical-scroll-proportion="0.0">
+            <state line="10" column="49" selection-start="211" selection-end="256" vertical-scroll-proportion="0.12952381">
               <folding />
             </state>
           </provider>
@@ -154,10 +157,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBankAccount.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestBankAccount.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestBankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="48" selection-start="905" selection-end="905" vertical-scroll-proportion="0.44237918">
+            <state line="32" column="48" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -637,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BankAccountDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="31" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TransactionDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="5" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
@@ -651,23 +647,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BankAccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BankAccount_25_6.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="42" selection-start="2192" selection-end="2192" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -695,7 +677,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestBankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="48" selection-start="905" selection-end="905" vertical-scroll-proportion="0.44237918">
+        <state line="32" column="48" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BankAccountDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="6" selection-start="1237" selection-end="1395" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BankAccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="49" selection-start="211" selection-end="256" vertical-scroll-proportion="0.12952381">
           <folding />
         </state>
       </provider>
