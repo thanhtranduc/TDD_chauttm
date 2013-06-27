@@ -77,4 +77,10 @@ public class TestBankAccount {
         long endTime = 1000;
         List<TransactionDTO> list = BankAccount.getTransactionOccurred(accountNumber,starTime,endTime);
     }
+
+    @Test
+    public void testNTransaction(){
+        int n = 2;
+        List<TransactionDTO> list = BankAccount.getTransactionOccurred(accountNumber,n);
+    }
 }

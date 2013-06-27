@@ -21,7 +21,7 @@
     <file path="$PROJECT_DIR$/../BankAccount 26_6/src/main/java/BankAccountDao.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372229041954" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount 26_6/src/main/java/BankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372229169893" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount_26_6/pom.xml" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372293987474" ignored="false" />
-    <file path="$PROJECT_DIR$/../BankAccount_26_6/src/test/java/TestBankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372296667603" ignored="false" />
+    <file path="$PROJECT_DIR$/../BankAccount_26_6/src/test/java/TestBankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372296788094" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount_26_6/src/main/java/BankAccountDao.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372294599878" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount_26_6/src/main/java/BankAccount.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372296752557" ignored="false" />
     <file path="$PROJECT_DIR$/../BankAccount_26_6/src/main/java/BankAccountDTO.java" changelist="a192628c-c152-46c1-97fc-f699bf34ccb8" time="1372294645182" ignored="false" />
@@ -124,10 +124,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Transaction.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Transaction.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="85" selection-start="1313" selection-end="1390" vertical-scroll-proportion="0.58285713">
+            <state line="34" column="85" selection-start="1313" selection-end="1390" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -160,10 +160,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestBankAccount.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TestBankAccount.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestBankAccount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="31" selection-start="3048" selection-end="3048" vertical-scroll-proportion="0.0">
+            <state line="83" column="6" selection-start="3163" selection-end="3318" vertical-scroll-proportion="0.7472119">
               <folding />
             </state>
           </provider>
@@ -685,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestBankAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="31" selection-start="3048" selection-end="3048" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BankAccount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="82" selection-start="1900" selection-end="1974" vertical-scroll-proportion="0.0">
@@ -701,7 +694,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="85" selection-start="1313" selection-end="1390" vertical-scroll-proportion="0.58285713">
+        <state line="34" column="85" selection-start="1313" selection-end="1390" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="6" selection-start="3163" selection-end="3318" vertical-scroll-proportion="0.7472119">
           <folding />
         </state>
       </provider>
