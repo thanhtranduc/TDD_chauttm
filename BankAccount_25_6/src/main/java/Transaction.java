@@ -9,8 +9,8 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public class Transaction {
-    private static TransactionDao transactionDao;
-    private static Calendar calendar;
+        private static TransactionDao transactionDao;
+        private static Calendar calendar;
 
 
     public static void save(String accountNumber, long amount, String description) {

@@ -17,6 +17,7 @@ import static org.mockito.Mockito.*;
  */
 public class TestBankAccount {
     BankAccountDao mockAccountDao = mock(BankAccountDao.class);
+    TransactionDao transactionDao = mock(TransactionDao.class);
     Calendar mockCalendar = mock(Calendar.class);
     private String accountNumber = "1234567890";
 
@@ -24,6 +25,8 @@ public class TestBankAccount {
     public void setUp(){
         reset(mockAccountDao);
         BankAccount.setBankAccountDao(mockAccountDao);
+        Transaction.setTransactionDao(transactionDao);
+        Transaction.setCalendar(mockCalendar);
     }
 
     @Test
