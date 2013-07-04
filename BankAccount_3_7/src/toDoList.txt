@@ -1,0 +1,8 @@
+1. Kiểm tra tài khoản mới mở có được save vào trong DB không
+2. Kiểm tra tài khoản mới mở set dữ liệu có chính xác vào DB không
+3. Kiểm tra tài khoản mới mở có phải là duy nhất trong DB không.
+4. Kiểm tra lấy tài khoản không tồn tại trong DB thì trả về NULL.
+5. Kiểm tra việc save 1 transaction có thành công.
+6. Kiểm tra get 1 transaction.
+7. Kiểm tra get 1 transaction từ khoảng start time đến end time.
+8. Kiểm tra lấy về n transaction.
