@@ -48,23 +48,23 @@ public class TestBankAccount {
     public void testDepositBalanceAccount(){
         BankAccountDTO newAcc = BankAccount.openAccount(accountNumber);
         when(mockAccountDao.get(accountNumber)).thenReturn(newAcc);
-        BankAccount.deposit(accountNumber,100,"deposit");
+        BankAccount.deposit(accountNumber,1000,"deposit");
         ArgumentCaptor<BankAccountDTO> argumentCaptor = ArgumentCaptor.forClass(BankAccountDTO.class);
         verify(mockAccountDao,times(2)).save(argumentCaptor.capture());
         List<BankAccountDTO> saveRecord = argumentCaptor.getAllValues();
-        assertEquals(saveRecord.get(1).getBalance(),100,0.01);
+        assertEquals(saveRecord.get(1).getBalance(),1000,0.01);
     }
 
     @Test
     public void testWithdrawBalanceAccount(){
         BankAccountDTO accountDTO = BankAccount.openAccount("1234567890");
         when(mockAccountDao.get("1234567890")).thenReturn(accountDTO);
-        BankAccount.deposit("1234567890",100,"deposit");
-        BankAccount.withDraw("1234567890",50,"deposit");
+        BankAccount.deposit("1234567890",1000,"deposit");
+        BankAccount.withDraw("1234567890",500,"deposit");
         ArgumentCaptor<BankAccountDTO> argumentAccount = ArgumentCaptor.forClass(BankAccountDTO.class);
         verify(mockAccountDao,times(3)).save(argumentAccount.capture());
         List<BankAccountDTO> savedAccountDB = argumentAccount.getAllValues();
-        Assert.assertEquals(savedAccountDB.get(1).getBalance(), 50, 0.01);
+        Assert.assertEquals(savedAccountDB.get(1).getBalance(), 500, 0.01);
     }
 
     @Test

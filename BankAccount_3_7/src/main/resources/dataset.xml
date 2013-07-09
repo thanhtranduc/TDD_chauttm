@@ -11,7 +11,7 @@
 
     <transactions account_number = '1234567890'
                   timestamp = '11111'
-                  amount = '1000'
+                  amount = '500'
                   descriptions = 'withdraw'  />
 
 </dataset>

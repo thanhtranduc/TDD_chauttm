@@ -1,0 +1,1 @@
+1. kiểm tra có lấy được tài khoản đang tồn tại trong db không

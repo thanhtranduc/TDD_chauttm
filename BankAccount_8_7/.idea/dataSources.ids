@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="PostgreSQL" version="9.2.4" jdbc-version="3.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.1 JDBC3 (build 901)" uuid="031ae01c-dd27-452b-80b7-69f0697808b5">
+    <identifier-quote-string>&quot;</identifier-quote-string>
+    <synchronize>true</synchronize>
+    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+    <jdbc-url>jdbc:postgresql://localhost:5432/bank_account</jdbc-url>
+    <user-name>postgres</user-name>
+    <user-password>dfcbdfcedfc7dfc3dfc4</user-password>
+    <schema-pattern>bank_account.public</schema-pattern>
+    <libraries>
+      <library>
+        <url>jar://$PROJECT_DIR$/.idea/postgresql-9.1-901.jdbc3.jar!/</url>
+      </library>
+      <library>
+        <url>file://$PROJECT_DIR$/.idea/postgresql-driver-license.txt</url>
+      </library>
+    </libraries>
+    <schema name="public" catalog="bank_account"/>
+    <table name="bank_account" schema="public" catalog="bank_account" type="TABLE">
+      <column name="id" sqlType="int8" length="19" precision="0" nullable="false" jdbcType="-5"/>
+      <column name="account_number" sqlType="varchar" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="balance" sqlType="float4" length="8" precision="8" nullable="true" jdbcType="7"/>
+      <column name="open_time_stamp" sqlType="int8" length="19" precision="0" nullable="true" jdbcType="-5"/>
+      <primary-key name="bank_account_pkey" columns="id"/>
+    </table>
+  </data-source>
+</component>
